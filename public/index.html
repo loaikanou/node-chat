@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="utf-8">
+    <meta name="description" content="Web Chat using nodejs, express, socket.io">
+    <meta name="keywords" content="Web,Chat,nodejs,socket">
+    <meta name="author" content="Loai N Kanou">
+    <title>Web Chat</title>
+<style>
+body {
+   color: blue;
+}
+
+.messages {
+   color: green;
+   font-size: 35px;
+}
+
+input {
+    font-size: 35px;
+    color: red;
+}
+
+</style>
+</head>
+<body>
+<h1>Web Chat</h1>
+<div class="messages"></div>
+<form action="javascript:void(0)">
+    <label for="message">&gt;</label>
+    <input type="text" id="message" required autofocus />
+</form>
+<script src="js/socket-io.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

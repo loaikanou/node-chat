@@ -1,0 +1,19 @@
+{
+  "name": "node-chat",
+  "version": "0.1.0",
+  "description": "this Simple node app for chat",
+  "main": "server.js",
+  "author": "Loai N Kanou",
+  "license": "MIT",
+  "keywords": ["chat", "app", "web", "node", "socket", "express"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.0"
+  }
+}
